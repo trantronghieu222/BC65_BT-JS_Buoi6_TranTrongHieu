@@ -63,7 +63,7 @@ Hãy viết chương trình khi click vào button sẽ in ra 10 thẻ div. Nếu
 background màu đỏ và lẻ thì background màu xanh.
 */
 function handleCreateDiv() {
-    for (var i = 0; i < 10; i++) {
+    for (var i = 1; i <= 10; i++) {
         if (i % 2 == 0) {
             var createDiv = document.createElement('div');
             // createDiv.style.cssText = 'background-color = red; padding: 20px 0;';
